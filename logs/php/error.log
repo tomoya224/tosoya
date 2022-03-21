@@ -1,0 +1,11 @@
+[20-Mar-2022 05:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_direcory_uri() in /Users/nanzhiye/Local Sites/tosoya/app/public/wp-content/themes/tosoya_theme/header.php:11
+Stack trace:
+#0 /Users/nanzhiye/Local Sites/tosoya/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/nanzhiye/Local Sites/tosoya/app/public/wp-includes/template.php(716): load_template('/Users/nanzhiye...', true, Array)
+#2 /Users/nanzhiye/Local Sites/tosoya/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/nanzhiye/Local Sites/tosoya/app/public/wp-content/themes/tosoya_theme/index.php(1): get_header()
+#4 /Users/nanzhiye/Local Sites/tosoya/app/public/wp-includes/template-loader.php(106): include('/Users/nanzhiye...')
+#5 /Users/nanzhiye/Local Sites/tosoya/app/public/wp-blog-header.php(19): require_once('/Users/nanzhiye...')
+#6 /Users/nanzhiye/Local Sites/tosoya/app/public/index.php(17): require('/Users/nanzhiye...')
+#7 {main}
+  thrown in /Users/nanzhiye/Local Sites/tosoya/app/public/wp-content/themes/tosoya_theme/header.php on line 11

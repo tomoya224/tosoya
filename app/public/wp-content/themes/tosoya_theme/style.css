@@ -1,0 +1,89 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+/* ヘッダー */
+.header {
+      border-top: 10px solid lightcoral;
+}
+.nav {
+    width: 100%;
+    height: 100px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    background-color: lightcoral;
+    
+}
+.nav > a {
+    
+    margin: auto 30px auto 30px;
+    line-height: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* フッター */
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: lightgray;
+    border-bottom: 50px solid lightcoral;
+}
+.footer-1 {
+    padding: 10px;
+}
+.footer-1 > p {
+    font-size: 24px;
+}
+/* トップページ */
+.main {
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.main > h1 {
+    font-size: 40px;
+    color: lightcoral;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+.main > p {
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+/* 事情内容 */
+.ji {
+    width: 100%;
+    margin-top: 400px;
+}
+.ji > h1 {
+    text-align: center;
+    padding: 30px auto 30px auto;
+    border-bottom: 3px solid lightcoral;
+}
+.gaiheki > h2 {
+    color: lightcoral;
+    font-size: 30px;
+}
+.gaiheki > p {
+    font-size: 24px;
+}
+/* 施工実績 */
+.sekou > h1 {
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 3px solid lightcoral;
+}
+.sekou > p {
+    font-size: 24px;
+    text-align: right;
+}
+
