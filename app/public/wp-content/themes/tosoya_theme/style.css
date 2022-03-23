@@ -39,8 +39,12 @@ footer {
 .footer-1, .footer-2{
     text-align: center;
 }
+.footer-1 > h1 {
+    margin: auto;
+}
 .footer-1 > p {
     font-size: 20px;
+    margin: auto auto 30px auto;
 }
 .footer-2 > a {
     margin: auto 30px auto 30px;
