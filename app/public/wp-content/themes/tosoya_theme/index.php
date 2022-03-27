@@ -3,22 +3,21 @@
 <main>
     <div class="main">
         <div class="main-img">
-            <img src="<?php echo get_template_directory_uri() ?>/images/main.png">
+            <img src="<?php echo get_template_directory_uri() ?>/images/main1.png">
         </div>
         <h1>Paint&Repair</h1>
-        <p>ビルやマンションなどの大規模修繕工事から住宅の塗装までおまかせください</p>
+        <p>外壁塗装に関することなら、何度もお任せください。</p>
     </div>
 </main>
 <div class="ji">
     <h1 class=>事情内容</h1>
     <div class="gaiheki">
        <div>
-           <img src="<?php echo get_template_directory_uri() ?>/images/gaiheki1.png">
+           <img src="<?php echo get_template_directory_uri() ?>/images/gaiheki.png">
        </div>
        <h2>塗装工事</h2>
        <p>
-          ビルの外壁塗装・外壁リフォーム・改装工事ならお任せください。外壁洗浄・養生の後、下塗り・上塗り2回で美しく仕上げます。
-          また、長年の豊富な経験を元に高い技術での施工を行なっております。
+          ビル、マンション、戸建て外壁塗装・外壁リフォーム・改装工事
        </p>
     </div>
     <div class="sekou">
